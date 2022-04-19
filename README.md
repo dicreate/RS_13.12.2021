@@ -1,2 +1,1 @@
-# dicreate-JSFEPRESCHOOL
-Private repository for @dicreate
+gh-pages
