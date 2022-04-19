@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>2048</title>
+   <script defer src="./js/index.js"></script>
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+   <header>
+      <div class="header-container">
+         <div class="score-container">
+            <h2 class="score-title">current account:</h2>
+            <span id="score">0</span>
+         </div>
+         <button class="new-game">new game</button>
+         <div>
+            <svg class="cup-icon">
+               <use xlink:href="./svg/sprite.svg#trophy_winner_first_award_cup_champion_icon_141870"></use>
+            </svg>
+         </div>
+      </div>
+   </header>
+   
+   <div id="result"></div>
+   <main>
+      <div class="grid-container">
+         <div class="grid-end">
+            <p class="grid-message">Game Over!</p>
+            <p class="score-end"></p>
+            <button class="retry">Try again</button>   
+         </div>
+         <div class="grid"></div>
+      </div>
+      <div class="score-wrapper">
+         <h1 class="score-title">List of the best results</h1>
+         <ul class="score-list">
+            
+         </ul>
+      </div>
+      <audio class="audio-end" src="./audio/balloon-fight---konets-igryi-game-over-muzyika-iz-igryi-nintendo-23489.mp3"></audio>
+      <audio class="audio-click" src="./audio/multyashnyiy-zvuk-najatiya-na-knopku-30362.mp3"></audio>
+   </main>
+   
+   <footer class="footer">
+      <div class="footer-container">
+         <a class="github" href="https://github.com/dicreate" target="_blank" rel="noopener noreferrer">
+            <span>&copy;  2022 github</span> 
+         </a>
+         <a class="rss" href="https://rs.school/js/" target="_blank" rel="noopener noreferrer">
+         <img src="./svg/rss.svg" alt="rs" class="rss-img">
+         <span class="rss-year">'22</span>
+         </a>
+      </div>
+   </footer>
+
+</body>
+</html>
