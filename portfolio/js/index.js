@@ -1,4 +1,3 @@
-import { review } from "./review.js";
 import { getTranslate } from "./i18n.js";
 import { changeTimeOfYear } from "./changeTimeOfYear.js";
 import { imagesPreloader } from "./imagesPreloader.js";
@@ -15,8 +14,6 @@ const topicElementsClassList = ['.hero', '.contacts'];
 const seasons = ['winter', 'spring', 'summer', 'autumn'];
 const topicElements = document.querySelectorAll(topicElementsClassList);
 let topic;
-
-review();
 
 imagesPreloader(seasons);
 
