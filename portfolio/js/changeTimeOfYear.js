@@ -8,6 +8,6 @@ export const changeTimeOfYear = (e) => {
          el.classList.remove('btn-active');
       })
       e.target.classList.add('btn-active');
-      portfolioImages.forEach((img, index) => img.src = `../img/${e.target.dataset.season}/${index + 1}.jpg`);
+      portfolioImages.forEach((img, index) => img.src = `./../img/${e.target.dataset.season}/${index + 1}.jpg`);
    }
 }
